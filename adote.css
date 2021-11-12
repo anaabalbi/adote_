@@ -1,0 +1,407 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-family: 'Acme', sans-serif;
+}
+
+
+.cabecalho {
+    display: flex; 
+    width: 100%;
+    height: 300px;
+    background-image: url('./imagens/10796.jpg');
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex; 
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 300px;
+    height: 100px;
+    background-color: #ffffff;    ;
+    border-radius: 15px 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1 {
+    display: flex;
+    font-size: 3em;
+    color: #f45c4e;
+    justify-content: center;
+    align-items: center;
+}
+
+.p3 {
+    display: flex;
+    font-size: 3em;
+    color: #99cccd;    
+    justify-content: center;
+    align-items: center;
+}
+
+.botao {
+    display: flex;
+    width: 800px;
+    height: 50px;
+    margin-bottom: 20px;
+    justify-content: space-around; 
+    list-style: none;
+    background-color: #abb4b4;
+    border-radius: 15px 0px 0px 15px;
+    text-transform: uppercase;
+    font-style: bold;
+}
+
+.home {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.home a {
+    text-decoration: none;
+}
+.sobre {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sobre a {
+    text-decoration: none;
+}
+
+.contato {
+    display: flex;
+    width: 100px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contato a {
+    text-decoration: none;
+}
+
+
+.botao > li > a:hover {
+    color:brown;
+    text-decoration: none;
+}
+
+.botao > li > a:visited:hover{
+    color:brown;
+    text-decoration: none;
+}
+
+.botao > li > a:visited {
+    color: rgb(255, 255, 146);
+    text-decoration: none;
+}
+
+
+.logo > h1:hover {
+    font-size: 2em;
+}
+
+
+
+main {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    justify-content: space-around;
+}
+
+.texto {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 40%;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    align-items: center;
+    text-indent: 30px;
+    line-height: 45px;
+
+}
+
+.enfase {
+    font-weight: bold;
+    color: rgb(68, 86, 145)
+
+}
+
+.pet{
+    display:flex;
+    align-items: center;
+    margin-top: 50px;
+    background-image: url('./imagens/pets.png');
+
+}
+
+.mosaico {
+    display: flex;
+    width: 700px;
+    height: 650px;
+    background-color:  #fff9e9;
+    margin: 50px 50px ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.casa1{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa2{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa3{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa4{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa5{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa6{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa7{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa8{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa9{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa10{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa11{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+.casa12{
+    display: flex;
+    width: 140px;
+    height: 136px;
+    margin:10px;
+    background-image: url('./imagens/house.png') ;
+    background-size: cover;
+}
+
+
+.casa1:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}
+.casa2:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}.casa3:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}.casa4:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}.casa5:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}.casa6:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}.casa7:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}.casa8:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}
+.casa9:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}.casa10:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}.casa11:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}.casa12:hover{
+    background-image: url('./imagens/patinhas.png');
+    transition: 0.9s;
+}
+
+.rodape{
+    display: flex;
+    background-color: #99cccd;
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+        width: 100%;
+        background-image: url('./imagens/10796.jpg');
+        background-size: cover;
+        align-items: flex-start;
+        justify-content: flex-end;
+        background-repeat: repeat;
+        min-width: 600px;
+    }
+
+
+    .botao {
+        display:flex;
+        flex-direction: column;
+        width: 100px;
+        height: 150px;
+        padding-top: 20px;
+        align-items: flex-end; 
+        list-style: none;
+        background-color: #abb4b4;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    .logo {
+        display: flex; 
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 200px;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 300px;
+        height: 100px;
+        background-color: #ffffff; 
+        border-radius: 15px 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .texto {
+        display: flex;
+        flex-wrap: wrap;
+        width: 40%;
+        height: 40%;
+        font-size: 30px;
+        align-items: center;
+        text-indent: 30px;
+        line-height: 45px;
+    
+    }
+
+    .pet{
+        display:none;
+    }
+
+    .mosaico {
+        display: flex;
+        width: 80%;
+        height: 650px;
+        background-color:  #fff9e9;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 15px;
+    }
+} 
+
+
+    
